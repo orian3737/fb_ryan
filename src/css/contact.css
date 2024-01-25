@@ -1,0 +1,38 @@
+/* purchase.css */
+
+/*container for everything on sign-up page*/
+
+.contact{
+    height: 2000px;
+  }
+  
+  .contactLogo {
+    height: 250;
+    margin-top: 120px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+  }
+  
+  .form {
+    display: block;
+    padding: 20px;
+    justify-content: space-between;
+    text-align: center;
+  }
+  
+  .textarea, .form2, .form3{
+    display: block;
+    text-align: left;
+    margin: 10px 0;
+    padding: 6px 10px;
+    border: 1px solid #007bff;
+    box-sizing: border-box;
+  }
+  
+  .studentsjpg {
+    height: 600px;
+    width: 980px;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1); 
+  }

@@ -1,0 +1,154 @@
+/* Sign-up.css */
+
+/*container for everything on sign-up page*/
+
+
+.signup{
+  background-color: #dbbfbf;
+  width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  margin-top: 40px;
+  border-radius: 10px;
+  border: 1px solid #007bff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+  
+}
+
+.student{
+  box-shadow: 0 4px 10px 0 rgb(42, 97, 180); /* this adds the "card" effect */
+  margin-top: 60px;
+  border: 5px;
+  border-radius: 20px;
+  border-color: rgb(174, 190, 190);
+  height: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+}
+
+.header2 {
+  padding: 80px;
+}
+
+.banner{
+  background-color: #dbbfbf;
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #007bff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+}
+.check-out{
+  display: flex;
+  flex-direction: column;
+}
+/* Styling for the left rectangle */
+.left-rectangle {
+    grid-column: 1;
+    background-color: #dbbfbf;
+    padding: 20px;
+    border: 1px solid #007bff;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+    border-radius: 8px;
+    text-align: center;
+  }
+  
+/* Styling for the right rectangle */
+.right-rectangle {
+  grid-column: 2;
+  background-color: #dbbfbf;
+  padding: 20px;
+  border: 1px solid #007bff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+  border-radius: 8px;
+  text-align: center;
+}
+
+/* Styling for the middle rectangle */
+.middle-rectangle {
+  background-color: #dbbfbf;
+  padding: 20px;
+  border: 1px solid #007bff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+  border-radius: 8px;
+  text-align: center;
+  grid-column: 1 / 3;
+}
+  
+/* Additional styling to achieve desired layout */
+.app {
+  display: grid;
+  gap: 5%;
+  grid-template-columns: 2;
+  grid-template-rows: 2;
+  margin-top: 20px;
+  padding: 80px;
+  
+}
+
+h2 {
+  color: #333;
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+.tc-head2{
+  background-color: #dbbfbf;
+  width: fit-content;
+  padding: 10px;
+  margin-top: 5%;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid #007bff;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.terms-and-conditions{
+  background-color: #f0f0f0;
+  width: 50ch;
+  margin: 0 auto;
+  height: 20ch;
+  border: 1px solid #007bff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
+  overflow-y: scroll;
+  p{
+    width: 80%;
+    margin: 0 auto;
+  }
+  ul{
+    width: 90%;
+    margin: 0 auto;
+    li{
+      text-align: left;
+      margin-left: 5%;
+    }
+  }
+}
+
+button {
+  background-color: #3498db;
+  color: rgb(190, 187, 4);
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: fit-content;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+  

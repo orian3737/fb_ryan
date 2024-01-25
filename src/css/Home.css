@@ -1,0 +1,15 @@
+/* Home.css */
+
+/*container for everything on Home page*/
+
+.homeContent {
+    margin-top: 80px;
+  }
+  
+  .spacejpg {
+    box-shadow: 0 4px 10px 0 rgb(42, 97, 180); /* this adds the "card" effect */
+    margin-top: 20px;
+    border: 5px;
+    border-radius: 20px;
+    border-color: rgb(98, 206, 206);
+  }

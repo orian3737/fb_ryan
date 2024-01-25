@@ -1,0 +1,254 @@
+/* App.css */
+
+/*container for all the styling for the content repeating in the App and pages*/
+
+.App {
+  text-align: center;
+  
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.LLlogo {
+  height: 80px; 
+  margin-right: 0px;
+  position: relative;
+  float: left;
+  margin-top: -90px;
+  border-radius: 10px;
+}
+
+.backgroundpng {
+  background-repeat: repeat-x;
+  background-size: 150px;
+}
+
+.header {
+  background: transparent;
+  padding: 20px;
+  box-shadow: 0 4px 8px 0 rgb(23, 65, 121);
+  width: 100%;
+}
+
+.header.active {
+  background: linear-gradient(90deg, #007bff 0%, #007bff 100% );
+}
+
+.links {
+  display: flex;
+  justify-content: space-between;
+  margin-left: 120px;
+  margin-top: 20px;
+  border: 1px solid;
+  border-radius: 20px;
+  padding: 20px;
+}
+
+
+h1 {
+  margin-bottom: 10px;
+  font-size: 2em;
+}
+
+h3 {
+  margin-top: 20px;
+}
+
+p {
+  margin: 20px 20px;
+}
+
+
+.App-link {
+  color: rgb(190, 187, 4);
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 1.2em;
+  display: inline-block;
+}
+
+.App-link:hover {
+  color: aqua;
+}
+
+.App-link::after {
+  display: inline-block;
+  content: '';
+  position: relative;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #dbdf06;
+  transform-origin: middle right;
+  transition: transform 0.25s ease-out;
+}
+
+.App-link:hover::after {
+  display: inline-block;
+  transform: scaleX(1);
+  transform-origin: middle fill;
+  margin-bottom: 3px;
+}
+
+.Footer-link {
+  color: rgb(196, 180, 180);
+  margin: 0 10px;
+  text-decoration: none;
+  font-size: 1.2em;
+  display: inline-block;
+}
+
+.Footer-link:hover {
+  color: aqua;
+}
+
+.Footer-link::after {
+  display: inline-block;
+  content: '';
+  position: relative;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #dbdf06;
+  transform-origin: middle right;
+  transition: transform 0.25s ease-out;
+  color: rgb(25, 5, 209);
+}
+
+.Footer-link:hover::after {
+  display: inline-block;
+  transform: scaleX(1);
+  transform-origin: middle fill;
+  margin-bottom: 3px;
+  
+}
+
+.Content {
+  padding: 20px;
+}
+
+.footercontainer {
+  margin: -60px;
+}
+
+.footer{
+  background-color: #007bff; 
+  height: 160px;
+  display: block;
+  justify-content: center;
+  margin-bottom: -110;
+}
+
+.Footh3 {
+  padding-bottom: 20px;
+}
+
+#sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+
+/* Float four columns side by side */
+.column {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 100%;
+    
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1); /* this adds the "card" effect */
+  padding: 16px;
+  text-align: center;
+  background-color: #dbbfbf;
+  border: 1px solid #007bff;
+  border-radius: 10px;
+  display: block;
+  width: 980px;
+}
+
+/* Style all font awesome icons */
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  text-decoration: none;
+  justify-content: center;
+  
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.fa-github {
+  background: #081a42;
+  color:rgb(190, 187, 4);
+  border-radius: 20%;
+}
+
+.fa-github:hover {
+  color: aqua;
+}
+
+/* Twitter */
+.fa-linkedin {
+  background: #081a42;
+  color: rgb(190, 187, 4);
+  border-radius: 20%;
+
+}
+
+.fa-linkedin:hover {
+  color: aqua;
+}
+
+.fa-facebook {
+  background: #081a42;
+  color: rgb(190, 187, 4);
+  border-radius: 20%;
+}
+
+.fa-facebook:hover {
+  color: aqua;
+}
+
+#i-box {
+ position: relative;
+ margin-bottom: 5px;
+ margin-left: 5px;
+}
