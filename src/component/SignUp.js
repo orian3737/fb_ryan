@@ -34,7 +34,7 @@ const SignUp = () => {
 
   return (
     <div className="header2">
-      <img src='images/signupjpg.jpg' alt='space' className='student' id='student'/>
+      <img src='images/signupjpg.jpg' alt='space' className='student'/>
     <div className='signup-container'>
       <h1 className="signup">Sign Up</h1>
       {/* <h2>Pre-Purchase the Beta Version</h2> */}

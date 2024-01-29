@@ -13,3 +13,20 @@
     border-radius: 20px;
     border-color: rgb(98, 206, 206);
   }
+
+  .bottomVec {
+    height: 350px;
+    margin-top: -120px;
+  }
+
+  .vecH4 {
+    background: linear-gradient(90deg, #ff0202 0%,#462020 100%);
+    color: rgb(255, 255, 255);
+  }
+
+  .homeTitle {
+    text-decoration: underline;
+    text-underline-position:below;
+    line-height: -
+    10px;
+  }
