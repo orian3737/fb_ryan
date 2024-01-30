@@ -26,26 +26,26 @@
   background-size: 150px;
 }
 
-.header {
+.Header {
   background: transparent;
   padding: 20px;
   box-shadow: 0 4px 8px 0 rgb(23, 65, 121);
   width: 100%;
 }
 
-.header.active {
+.Header.active {
   background: linear-gradient(90deg, #f4f4f5 0%, #007bff 100% );
 }
 
 .links {
   display: flex;
   justify-content: space-between;
-  margin-left: 120px;
   margin-top: 20px;
-  border: 1px solid;
+  margin-left: 40px;
+  border: 2px solid #770101;
   border-radius: 20px;
   padding: 20px;
-
+  width: 1180px;
 }
 
 
@@ -64,7 +64,10 @@ p {
 
 
 .App-link {
-  color: #ffffff;
+  color: #770101;
+  font-weight: 800;
+  -webkit-text-stroke: 1px #F8F8F8;
+	text-shadow: 0px 1px 4px #030701;
   margin: 0 10px;
   text-decoration: none;
   font-size: 1.2em;
@@ -73,6 +76,8 @@ p {
 
 .App-link:hover {
   color: aqua;
+  -webkit-text-stroke: 1px aqua;
+	text-shadow: 0px 1px 4px #030701;
 }
 
 .App-link::after {
@@ -217,12 +222,12 @@ p {
   text-align: center;
   text-decoration: none;
   justify-content: center;
-  
+  background: linear-gradient(90deg, #007bff 0%,#8abdf3 100%);
 }
 
 /* Add a hover effect if you want */
 .fa:hover {
-  opacity: 0.7;
+  background: linear-gradient(15deg,  #4e83bd 0%, #081a42 100%);
 }
 
 /* Set a specific color for each brand */
@@ -230,34 +235,37 @@ p {
 /* Facebook */
 .fa-github {
   background: #081a42;
-  color:rgb(190, 187, 4);
+  color: aqua;
   border-radius: 20%;
+  background: linear-gradient(15deg, #081a42 0%,#4e83bd 100%);
 }
 
 .fa-github:hover {
-  color: aqua;
+  color: rgb(138, 4, 4);
 }
 
 /* Twitter */
 .fa-linkedin {
   background: #081a42;
-  color: rgb(190, 187, 4);
+  color: aqua;
   border-radius: 20%;
-
+  background: linear-gradient(15deg, #081a42 0%,#4e83bd 100%);
 }
 
 .fa-linkedin:hover {
-  color: aqua;
+  color: rgb(138, 4, 4);
 }
 
 .fa-facebook {
   background: #081a42;
-  color: rgb(190, 187, 4);
+  color: aqua;
   border-radius: 20%;
+  border: 1px #fff;
+  background: linear-gradient(15deg, #081a42 0%,#4e83bd 100%);
 }
 
 .fa-facebook:hover {
-  color: aqua;
+  color: rgb(138, 4, 4);
 }
 
 #i-box {

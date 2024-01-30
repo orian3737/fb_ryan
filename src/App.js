@@ -34,12 +34,13 @@ function App() {
   <Router>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
    <div className="App"> 
-   <div style={{backgroundImage: "url(images/LLlogoblue.png)"}} className='backroundpng'></div>
+   <div style={{backgroundImage: "url(images/ightning learn.png.png)"}} className='backroundpng'></div>
         <header className="header active" id='sticky'>
 
               <div className="links">
-              <div className="head">
-              <h1 className='head1'>LightningLearn</h1>
+              <div className="header">
+              {/* <h1 className='head1'>LightningLearn</h1> */}
+              <img className='LLlogo' src='images/lightning learn.png' alt="Logo"/>
             </div>
             <div className="navbar">
                 <nav className='sticky'>
@@ -51,7 +52,7 @@ function App() {
                 </nav>
               </div>
           </div>
-          <img className='LLlogo ,contactLogo' src="LLlogo.jpg" alt='LL-logo'></img>
+          
         </header>
         <div className="Content">
           <Routes>

@@ -4,7 +4,7 @@ import '../css/Home.css';
 
 const Home = () => (
   <div className='homeContent'>
-          <img className='spacejpg' src='images/space.jpg' alt='space' ></img>
+          <img className='spacejpg' src='images/chalkboard.jpg' alt='space'/>
         <div className='row'>
           <div className='column'><div className='card'><div className="borderCard"><h1 className='homeTitle'>Welcome to LightningLearn</h1><p>We're delighted to introduce you to LightningLearn, a groundbreaking project under development by Flexi Solutions LLC – a company dedicated to pioneering innovative solutions for education. Here, education and values converge to create an enriching and 
             joyful learning experience for your children aged 4 to 12.</p></div></div></div>

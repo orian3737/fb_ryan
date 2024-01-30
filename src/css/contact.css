@@ -3,12 +3,13 @@
 /*container for everything on sign-up page*/
 
 .contact{
-    height: 2000px;
+    height: 2200px;
   }
   
   .contactLogo {
-    height: 250;
-    margin-top: 120px;
+    height: 750px;
+    width: 1185px;
+    margin-top: -10px;
     border-radius: 20px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 1);
   }
